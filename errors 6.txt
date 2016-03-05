@@ -1,0 +1,9 @@
+Z:\Assignment 2\soldierV2.h||In member function 'double* unit::getlocation()':|
+Z:\Assignment 2\soldierV2.h|163|warning: address of local variable 'loc' returned [-Wreturn-local-addr]|
+Z:\Assignment 2\main.cpp||In function 'int main()':|
+Z:\Assignment 2\main.cpp|67|error: name lookup of 'i' changed for ISO 'for' scoping [-fpermissive]|
+Z:\Assignment 2\main.cpp|67|note: (if you use '-fpermissive' G++ will accept your code)|
+Z:\Assignment 2\main.cpp|81|error: name lookup of 'i' changed for ISO 'for' scoping [-fpermissive]|
+Z:\Assignment 2\main.cpp|91|error: 'location' was not declared in this scope|
+Z:\Assignment 2\main.cpp|100|error: 'location' was not declared in this scope|
+||=== Build failed: 4 error(s), 1 warning(s) (0 minute(s), 0 second(s)) ===|
