@@ -1,0 +1,34 @@
+Z:\Assignment 2\soldierV2.h||In member function 'double* soldier::getlocation()':|
+Z:\Assignment 2\soldierV2.h|33|warning: address of local variable 'loc' returned [-Wreturn-local-addr]|
+Z:\Assignment 2\soldierV2.h||In member function 'void unit::addunit(unit*)':|
+Z:\Assignment 2\soldierV2.h|183|error: expected primary-expression before '==' token|
+Z:\Assignment 2\soldierV2.h|183|error: expected unqualified-id before '=' token|
+Z:\Assignment 2\soldierV2.h|184|error: 'class unit' has no member named 'setnext'|
+Z:\Assignment 2\soldierV2.h|184|error: expected primary-expression before ')' token|
+Z:\Assignment 2\soldierV2.h|185|error: expected unqualified-id before '=' token|
+Z:\Assignment 2\soldierV2.h|358|error: 'HANDLE' has not been declared|
+Z:\Assignment 2\soldierV2.h|381|error: 'HANDLE' has not been declared|
+Z:\Assignment 2\soldierV2.h||In member function 'void world::display(int*)':|
+Z:\Assignment 2\soldierV2.h|383|error: 'SetConsoleTextAttribute' was not declared in this scope|
+Z:\Assignment 2\main.cpp||In function 'int main()':|
+Z:\Assignment 2\main.cpp|57|error: 'i' was not declared in this scope|
+Z:\Assignment 2\main.cpp|59|error: 'class unit' has no member named 'id'|
+Z:\Assignment 2\main.cpp|66|error: expected primary-expression before ':' token|
+Z:\Assignment 2\main.cpp|66|error: expected ';' before ':' token|
+Z:\Assignment 2\main.cpp|108|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|108|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|381|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|381|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+Z:\Assignment 2\main.cpp|131|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|131|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|381|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|381|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+Z:\Assignment 2\main.cpp|138|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|138|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|381|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|381|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+Z:\Assignment 2\main.cpp|142|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|142|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|381|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|381|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+||=== Build failed: 16 error(s), 1 warning(s) (0 minute(s), 0 second(s)) ===|
