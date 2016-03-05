@@ -1,0 +1,30 @@
+Z:\Assignment 2\soldierV2.h||In member function 'double* unit::getlocation()':|
+Z:\Assignment 2\soldierV2.h|162|warning: address of local variable 'loc' returned [-Wreturn-local-addr]|
+Z:\Assignment 2\soldierV2.h|347|error: 'HANDLE' has not been declared|
+Z:\Assignment 2\soldierV2.h|370|error: 'HANDLE' has not been declared|
+Z:\Assignment 2\soldierV2.h||In member function 'void world::display(int*)':|
+Z:\Assignment 2\soldierV2.h|372|error: 'SetConsoleTextAttribute' was not declared in this scope|
+Z:\Assignment 2\main.cpp||In function 'int main()':|
+Z:\Assignment 2\main.cpp|66|error: name lookup of 'i' changed for ISO 'for' scoping [-fpermissive]|
+Z:\Assignment 2\main.cpp|66|note: (if you use '-fpermissive' G++ will accept your code)|
+Z:\Assignment 2\main.cpp|80|error: name lookup of 'i' changed for ISO 'for' scoping [-fpermissive]|
+Z:\Assignment 2\main.cpp|90|error: 'location' was not declared in this scope|
+Z:\Assignment 2\main.cpp|99|error: 'location' was not declared in this scope|
+Z:\Assignment 2\main.cpp|114|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|114|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|370|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|370|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+Z:\Assignment 2\main.cpp|137|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|137|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|370|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|370|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+Z:\Assignment 2\main.cpp|144|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|144|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|370|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|370|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+Z:\Assignment 2\main.cpp|148|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|148|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|370|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|370|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+||=== Build failed: 11 error(s), 1 warning(s) (0 minute(s), 0 second(s)) ===|
+
