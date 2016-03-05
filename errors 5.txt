@@ -1,0 +1,26 @@
+Z:\Assignment 2\soldierV2.h||In member function 'double* unit::getlocation()':|
+Z:\Assignment 2\soldierV2.h|163|warning: address of local variable 'loc' returned [-Wreturn-local-addr]|
+Z:\Assignment 2\soldierV2.h|337|error: 'hConsole' does not name a type|
+Z:\Assignment 2\soldierV2.h|338|error: 'hptr' does not name a type|
+Z:\Assignment 2\soldierV2.h|339|error: 'hConsole' is not a type|
+Z:\Assignment 2\soldierV2.h|339|error: expected identifier before numeric constant|
+Z:\Assignment 2\soldierV2.h|339|error: expected ',' or '...' before numeric constant|
+Z:\Assignment 2\soldierV2.h|339|error: ISO C++ forbids declaration of 'SetConsoleTextAttribute' with no type [-fpermissive]|
+Z:\Assignment 2\soldierV2.h||In member function 'void cell::display(void**)':|
+Z:\Assignment 2\soldierV2.h|346|error: invalid conversion from 'HANDLE {aka void*}' to 'int' [-fpermissive]|
+Z:\Assignment 2\soldierV2.h|339|error:   initializing argument 1 of 'int cell::SetConsoleTextAttribute(int, int)' [-fpermissive]|
+Z:\Assignment 2\soldierV2.h|348|error: invalid conversion from 'HANDLE {aka void*}' to 'int' [-fpermissive]|
+Z:\Assignment 2\soldierV2.h|339|error:   initializing argument 1 of 'int cell::SetConsoleTextAttribute(int, int)' [-fpermissive]|
+Z:\Assignment 2\soldierV2.h|350|error: invalid conversion from 'HANDLE {aka void*}' to 'int' [-fpermissive]|
+Z:\Assignment 2\soldierV2.h|339|error:   initializing argument 1 of 'int cell::SetConsoleTextAttribute(int, int)' [-fpermissive]|
+Z:\Assignment 2\main.cpp||In function 'int main()':|
+Z:\Assignment 2\main.cpp|60|error: name lookup of 'i' changed for ISO 'for' scoping [-fpermissive]|
+Z:\Assignment 2\main.cpp|60|note: (if you use '-fpermissive' G++ will accept your code)|
+Z:\Assignment 2\main.cpp|74|error: name lookup of 'i' changed for ISO 'for' scoping [-fpermissive]|
+Z:\Assignment 2\main.cpp|84|error: 'location' was not declared in this scope|
+Z:\Assignment 2\main.cpp|93|error: 'location' was not declared in this scope|
+Z:\Assignment 2\main.cpp|108|error: 'hptr' was not declared in this scope|
+Z:\Assignment 2\main.cpp|131|error: 'hptr' was not declared in this scope|
+Z:\Assignment 2\main.cpp|138|error: 'hptr' was not declared in this scope|
+Z:\Assignment 2\main.cpp|142|error: 'hptr' was not declared in this scope|
+||=== Build failed: 20 error(s), 1 warning(s) (0 minute(s), 0 second(s)) ===|
