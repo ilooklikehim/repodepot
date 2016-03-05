@@ -1,0 +1,38 @@
+Z:\Assignment 2\soldierV2.h||In member function 'double* soldier::getlocation()':|
+Z:\Assignment 2\soldierV2.h|33|warning: address of local variable 'loc' returned [-Wreturn-local-addr]|
+Z:\Assignment 2\soldierV2.h||In member function 'void unit::addunit(unit*)':|
+Z:\Assignment 2\soldierV2.h|185|error: expected primary-expression before '==' token|
+Z:\Assignment 2\soldierV2.h|185|error: expected unqualified-id before '=' token|
+Z:\Assignment 2\soldierV2.h|186|error: expected primary-expression before ')' token|
+Z:\Assignment 2\soldierV2.h|187|error: expected unqualified-id before '=' token|
+Z:\Assignment 2\soldierV2.h||In member function 'void unit::change(unit*)':|
+Z:\Assignment 2\soldierV2.h|193|error: 'class unit' has no member named 'id'|
+Z:\Assignment 2\soldierV2.h|198|error: 'class unit' has no member named 'getlocation'|
+Z:\Assignment 2\soldierV2.h|198|error: 'location' was not declared in this scope|
+Z:\Assignment 2\soldierV2.h|349|error: 'HANDLE' has not been declared|
+Z:\Assignment 2\soldierV2.h|372|error: 'HANDLE' has not been declared|
+Z:\Assignment 2\soldierV2.h||In member function 'void world::display(int*)':|
+Z:\Assignment 2\soldierV2.h|374|error: 'SetConsoleTextAttribute' was not declared in this scope|
+Z:\Assignment 2\main.cpp||In function 'int main()':|
+Z:\Assignment 2\main.cpp|57|error: 'i' was not declared in this scope|
+Z:\Assignment 2\main.cpp|59|error: 'class unit' has no member named 'id'|
+Z:\Assignment 2\main.cpp|67|error: expected primary-expression before ':' token|
+Z:\Assignment 2\main.cpp|67|error: expected ';' before ':' token|
+Z:\Assignment 2\main.cpp|112|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|112|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|372|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|372|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+Z:\Assignment 2\main.cpp|135|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|135|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|372|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|372|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+Z:\Assignment 2\main.cpp|142|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|142|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|372|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|372|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+Z:\Assignment 2\main.cpp|146|error: no matching function for call to 'world::display(void**&)'|
+Z:\Assignment 2\main.cpp|146|note: candidate is:|
+Z:\Assignment 2\soldierV2.h|372|note: void world::display(int*)|
+Z:\Assignment 2\soldierV2.h|372|note:   no known conversion for argument 1 from 'void**' to 'int*'|
+||=== Build failed: 18 error(s), 1 warning(s) (0 minute(s), 0 second(s)) ===|
+
